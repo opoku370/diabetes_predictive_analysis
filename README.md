@@ -44,7 +44,7 @@ Diabetes is one of the most common chronic illnesses globally and is often undia
 
 ## DATA SOURCE 
 Data collected from a hospital in Ghana 
--<a href= “https://github.com/opoku370/diabetes_predictive_analysis/blob/main/assets/dataset/diabetes.xlsx”> Dataset </a>
+-<a href= “assets/dataset/diabetes.xlsx”> Dataset </a>
 
 ## DATASET SUMMARY
 The dataset used in this project contains 625 records, each representing an individual's health profile with the following attributes:
@@ -575,12 +575,12 @@ print("Accuracy Score:", accuracy_score(y_test, y_pred_svm))
 With the small size of the data, it does not do so well with hyperparameter tunning causing overfitting.
 
 
-## Recommendation
+## RECOMMENDATION
 Based on the analysis conducted, Support Vector Machine (SVM) emerged as the most effective model for predicting diabetes using basic health features. Among the models evaluated SVM, Decision Tree, and K-Nearest Neighbors (KNN). SVM demonstrated the highest recall and F1-score for the diabetic class. In medical applications, where identifying true positive cases (i.e., individuals with diabetes) is of paramount importance, high recall is critical to minimizing false negatives.
 While KNN provided a more balanced performance across both classes, and Decision Tree offered simplicity and interpretability, the SVM model proved superior in capturing diabetic cases with greater reliability. Given that the objective of this project is to support early diagnosis and intervention, SVM's strong performance in identifying diabetic individuals makes it the recommended model for deployment or further development.
 Future improvement can be expanding the dataset for greater generalizability.
 
-## Conclusion
+## CONCLUSION
 This project successfully demonstrates the feasibility of using basic, non-invasive health data such as age, gender, height, weight, blood sugar level and BMI to predict the likelihood of diabetes using machine learning techniques. By focusing on accessible features, the approach aims to support early screening and intervention, particularly in low-resource settings where lab tests may not be readily available.
 Among the various models evaluated, Support Vector Machine (SVM) stood out as the most effective classifier, particularly in its ability to correctly identify individuals with diabetes. This high recall performance is crucial in healthcare applications where failing to detect a true positive case can lead to serious health consequences.
 Key takeaways include:
@@ -591,7 +591,7 @@ Key takeaways include:
 This project highlights the potential of machine learning to aid in early disease detection using minimal input data. It lays the groundwork for more advanced health risk assessment tools and encourages future work in expanding datasets, incorporating more features, and testing ensemble methods or deep learning models for further gains.
 By providing a lightweight, interpretable, and high-performing model, this solution can serve as a valuable tool for preventive healthcare and digital health platforms aimed at managing chronic diseases like diabetes.
 
-## Impact
+## IMPACT
 This project demonstrates that even with a minimal and accessible set of features, it is possible to build an effective machine learning model for diabetes prediction. It showcases the value of data-driven decision-making in preventive healthcare and lays the groundwork for building lightweight screening tools.
 
 
