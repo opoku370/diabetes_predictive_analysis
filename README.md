@@ -44,7 +44,7 @@ Diabetes is one of the most common chronic illnesses globally and is often undia
 
 ## DATA SOURCE 
 Data collected from a hospital in Ghana 
--<a href= “             back”>Dataset </a>
+-<a href= “https://github.com/opoku370/diabetes_predictive_analysis/blob/main/assets/dataset/diabetes.xlsx”>Dataset </a>
 
 ## DATASET SUMMARY
 The dataset used in this project contains 625 records, each representing an individual's health profile with the following attributes:
